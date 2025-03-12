@@ -27,7 +27,7 @@ public class TextUI {
 
     }
 
-    void displayChoice(ArrayList<Integer> choices, ArrayList<String> list,String msg){
+    void displayList(ArrayList<Integer> choices, ArrayList<String> list,String msg){
         System.out.println(msg);
         for (int i : choices) {
             System.out.println(i+ ". " + list.get(i-1));
